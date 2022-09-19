@@ -1,4 +1,4 @@
-class MapArray<T> {
+export class MapArray<T> {
     items:T[];
     map: Map<string, T>;
     push(item:T, id:string){

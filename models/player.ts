@@ -4,7 +4,6 @@ export type Player = {
     id: string;
     name: string;
     hand: Card[];
-    active: boolean;
     folded: boolean;
     chips: number;
     chipsPlayed: number;
